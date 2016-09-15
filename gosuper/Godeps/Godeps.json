@@ -1,0 +1,105 @@
+{
+	"ImportPath": "github.com/resin-io/resin-supervisor/gosuper",
+	"GoVersion": "go1.5.1",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/StackExchange/wmi",
+			"Rev": "f3e2bae1e0cb5aef83e319133eabfee30013a4a5"
+		},
+		{
+			"ImportPath": "github.com/bitly/go-simplejson",
+			"Comment": "v0.5.0",
+			"Rev": "aabad6e819789e569bd6aabf444c935aa9ba1e44"
+		},
+		{
+			"ImportPath": "github.com/boltdb/bolt",
+			"Comment": "v1.1.0-19-g0b00eff",
+			"Rev": "0b00effdd7a8270ebd91c24297e51643e370dd52"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-systemd/dbus",
+			"Comment": "v4-4-g4a47042",
+			"Rev": "4a47042cb1d653fe9cd53014854782a516c6252a"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-systemd/login1",
+			"Comment": "v4-4-g4a47042",
+			"Rev": "4a47042cb1d653fe9cd53014854782a516c6252a"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/units",
+			"Comment": "v1.4.1-8554-gbb2c923",
+			"Rev": "bb2c92355cb6f4e6935a945c22989fd3afe8e3cb"
+		},
+		{
+			"ImportPath": "github.com/dukex/mixpanel",
+			"Rev": "320805cae823c4cedd658c7176fa0daa8b16d0ee"
+		},
+		{
+			"ImportPath": "github.com/fatih/structs",
+			"Rev": "dd04ebad3deb3e3833c98ce4a83e2bff65734236"
+		},
+		{
+			"ImportPath": "github.com/go-ole/go-ole",
+			"Comment": "v1.2.0-2-g97ac8b0",
+			"Rev": "97ac8b05c02bbb755d36549e7e607433dfbef4b2"
+		},
+		{
+			"ImportPath": "github.com/godbus/dbus",
+			"Comment": "v3-2-g9055aba",
+			"Rev": "9055aba822f5d54b1cb3e124336499648cb5d3c5"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "1c83b3eabd45b6d76072b66b746c20815fb2872d"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "9c068cf16d982f8bd444b8c352acbeec34c4fe5b"
+		},
+		{
+			"ImportPath": "github.com/resin-io/pinejs-client-go",
+			"Rev": "17bc18e5875e28e056e8e79b3899c3a4f345dd0e"
+		},
+		{
+			"ImportPath": "github.com/samalba/dockerclient",
+			"Rev": "0197eaa42571af873532ba11499f6ccdf16a5f3a"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/cpu",
+			"Comment": "1.0.0-210-gfc932d9",
+			"Rev": "fc932d9090f13a84fb4b3cb8baa124610cab184c"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/host",
+			"Comment": "1.0.0-210-gfc932d9",
+			"Rev": "fc932d9090f13a84fb4b3cb8baa124610cab184c"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/internal/common",
+			"Comment": "1.0.0-210-gfc932d9",
+			"Rev": "fc932d9090f13a84fb4b3cb8baa124610cab184c"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/net",
+			"Comment": "1.0.0-210-gfc932d9",
+			"Rev": "fc932d9090f13a84fb4b3cb8baa124610cab184c"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/process",
+			"Comment": "1.0.0-210-gfc932d9",
+			"Rev": "fc932d9090f13a84fb4b3cb8baa124610cab184c"
+		},
+		{
+			"ImportPath": "github.com/shirou/w32",
+			"Rev": "ada3ba68f000aa1b58580e45c9d308fe0b7fc5c5"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "833a04a10549a95dc34458c195cbad61bbb6cb4d"
+		}
+	]
+}
